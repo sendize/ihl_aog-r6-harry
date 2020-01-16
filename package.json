@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "debug": "DEBUG=ihl-aog-r6-harry:* nodemon npm start --ext js,mjs,json,hjs"
+    "debug": "DEBUG=ihl-aog-r6-harry:* nodemon npm start --ext js,mjs,json,hjs,env"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
