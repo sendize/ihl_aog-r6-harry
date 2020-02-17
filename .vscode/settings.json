@@ -1,0 +1,9 @@
+{
+  // "editor.formatOnSave": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // // "prettier.endOfLine": "auto",
+  // // "prettier.useTabs": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
