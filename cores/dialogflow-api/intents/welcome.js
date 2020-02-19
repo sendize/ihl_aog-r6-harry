@@ -8,15 +8,17 @@ const {
 
 
 app.intent('Default Welcome Intent', (conv) => {
-    conv.ask(welcome_messages[getRandomInt(2)]);
+    console.log(welcome_messages.length);
+    conv.ask(welcome_messages[getRandomInt(welcome_messages.length - 1)]);
     conv.ask(new Suggestions("aaa"));
 });
 
 
 
 const welcome_messages = [
-    "Hi, operator! What do you want to do today?",
-    "Good day, operator. What would you like to know today?"
+    "Hello, operator! What do you want to do today?",
+    "Good day, operator. What would you like to know today?",
+    "What's going on, operator? Tell me what you want to do for today"
 ]
 
 function getRandomInt(max) {
