@@ -4,6 +4,15 @@
  * Module dependencies.
  */
 
+const result = require('dotenv').config({ path: 'config/process.env' });
+
+if (result.error) {
+  throw result.error
+}
+ 
+// console.log(result.parsed)
+
+
 var app = require('../app');
 var debug = require('debug')('ihl-aog-r6-harry:server');
 var http = require('http');

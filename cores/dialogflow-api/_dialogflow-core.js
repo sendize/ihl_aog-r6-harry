@@ -1,12 +1,16 @@
 "use strict";
 const {
     dialogflow,
-    Suggestions
+    Suggestions,
+    BasicCard,
+    Image
 } = require('actions-on-google');
 
 var aog_variables = {
     Suggestions,
-    dialogflow
+    dialogflow,
+    BasicCard,
+    Image
 }
 
 const app = dialogflow({

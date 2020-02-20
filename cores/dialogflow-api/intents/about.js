@@ -2,5 +2,5 @@
 const app = require('../_dialogflow-core').app;
 
 app.intent('About', (conv) => {
-    conv.ask("Test 2");
+    conv.ask("#LiraStillGay2020");
 });
