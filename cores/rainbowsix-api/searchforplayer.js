@@ -3,7 +3,6 @@
 const axios = require('axios');
 
 class MyRainbowSixAPI{
-
     async searchForPlayers(platform, username){
         var raw_result = await axios.get(`https://r6tab.com/api/search.php?platform=${platform}&search=${username}`).then(response => response.data);
 

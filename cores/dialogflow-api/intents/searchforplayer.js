@@ -9,7 +9,7 @@ const {
 
 const R6API = require('r6api.js');
 const r6api = new R6API('citohe1493@seo-mailer.com', 'ihl-pass');
-const myr6api = require('../../rainbowsix-api/searchforplayer').api;
+const myr6api = require('../../rainbowsix-api/index');
 
 app.intent('SearchForPlayer - Player Name', async (conv) => {
 
