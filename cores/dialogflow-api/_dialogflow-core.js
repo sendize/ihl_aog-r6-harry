@@ -3,14 +3,18 @@ const {
     dialogflow,
     Suggestions,
     BasicCard,
-    Image
+    Image,
+    Table,
+    Carousel,
 } = require('actions-on-google');
 
 var aog_variables = {
     Suggestions,
     dialogflow,
     BasicCard,
-    Image
+    Image,
+    Table,
+    Carousel
 }
 
 const app = dialogflow({
